@@ -4,12 +4,12 @@
       "Bash(git add *)",
       "Bash(git push *)",
       "Bash(git *)",
-      "Bash(Select-String -Pattern \"\\(?i\\)hrms|opensource|open.source\" -Context 3)",
+      "Bash(Select-String -Pattern \"\\\\((?i)////)/")",
       "PowerShell(git log *)",
       "WebSearch",
       "WebFetch(domain:dev.to)",
-      "Bash(Get-ChildItem *)",
-      "Bash(node -e ' *)",
+      "PowerShell(Get-ChildItem *)",
+      "Bash(node -e \" *\")",
       "PowerShell(Remove-Item *)"
     ]
   }
